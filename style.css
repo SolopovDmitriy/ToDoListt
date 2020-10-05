@@ -1,0 +1,105 @@
+
+
+header { 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(46, 139, 192);
+    font-size: 35px;
+    text-align: center;
+    padding: 8px 0; 
+    font-weight: bold;
+    color: #fff;
+}
+
+.outer {
+    text-align: center;
+}
+
+.buttons-section {
+    background-color: aquamarine;
+    padding: 5px 0;
+}
+
+.inner {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+img {
+    height: 14px;
+    width: 14px;
+}
+
+button {
+    background-color: rgb(128, 230, 196);
+    border-radius: 2px;
+}
+
+body {
+    background-color: #ccc;
+}
+
+.inner-main-block {
+    width: 500px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 75);
+}
+
+input {
+    width: 300px;
+}
+
+#add-button {
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+    width: 185px;
+}
+
+.add-task-section {
+    padding: 3px 0;
+}
+
+footer {
+    background-color: rgba(204, 204, 204, 0.733);
+    text-align: left;
+    padding: 0 3px 3px 12px;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+main {
+    text-align: left;
+    padding: 0 3px 3px 7px;
+    margin: 0;
+}
+
+/* .input[type=checkbox]:checked {
+    font-weight: bold;
+} */
+
+main span {
+    color: rgb(4, 0, 255);
+    font-size: 13px;
+    /* float: right; */
+    /* text-align: right; */
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+main img {
+    /* float: right; */
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+main div div {
+    text-align: right;
+    /* float: right; */
+    padding: -5px;
+    margin: 0;
+    margin-top: -20px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title> 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="outer">
+        <div class="inner inner-main-block">
+            <header>
+                ToDoList
+            </header> 
+            <div class="outer buttons-section">
+                <div class="inner">
+                    <button id="alltasks-button">
+                        <img src="img/file_options_list_agenda_tasks-512.png" />
+                        All tasks
+                    </button>
+                    <button id="todo-button">
+                        <img src="img/remove-icon-hi.png" />
+                        To do
+                    </button>
+                    <button id="complete-button">
+                        <img src="img/317-3179395_best-quality-complete-icon.png" />
+                        Complete
+                    </button>
+                </div>
+            </div>
+            <main id="main">
+                <!-- <div>
+                    <input type="checkbox" style="width: 10px;" /> Test task
+                    <div>
+                        <img src="img/52-512.png" />
+                        <span>Supprimer</span>
+                    </div>
+                </div>
+
+                <div>
+                    <input type="checkbox" style="width: 10px;" /> Test task
+                    <div>
+                        <img src="img/52-512.png" />
+                        <span>Supprimer</span>
+                    </div>
+                </div>
+
+                <div>
+                    <input type="checkbox" style="width: 10px;" /> Test task
+                    <div>
+                        <img src="img/52-512.png" />
+                        <span>Supprimer</span>
+                    </div>
+                </div> -->
+            </main>
+            <div class="add-task-section"> 
+                <input id="task-text" placeholder="Add a task" />
+                <button id="add-button">
+                    + Add
+                </button>
+            </div>
+            <footer>
+                <span class="bold">
+                    Tasks
+                </span>
+                <span id="selected-tasks">
+                    0 / 0
+                </span>
+            </footer>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
